@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main_libft.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rbutzke <leafarbutzke@hotmail.com>         +#+  +:+       +#+        */
+/*   By: rbutzke <rbutzke@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/08 13:56:18 by rbutzke           #+#    #+#             */
-/*   Updated: 2023/10/29 11:23:35 by rbutzke          ###   ########.fr       */
+/*   Updated: 2023/11/04 12:42:08 by rbutzke          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -278,5 +278,14 @@ Teste 35 - função teste_ft_lstmap
 	printf("\n---------------------------------------\n");
 	printf("ft_lstmap:     ");
 	teste_ft_lstmap(ft_lstmap);
+
+
+/*
+Teste 35 - teste_ft_striteri
+*/
+	printf("\n---------------------------------------\n");
+	printf("ft_striteri:       ");
+	teste_ft_striteri(ft_striteri);
+
 
 }

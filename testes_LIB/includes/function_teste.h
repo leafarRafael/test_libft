@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   function_teste.h                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rbutzke <leafarbutzke@hotmail.com>         +#+  +:+       +#+        */
+/*   By: rbutzke <rbutzke@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/08 14:46:33 by rbutzke           #+#    #+#             */
-/*   Updated: 2023/10/29 10:39:00 by rbutzke          ###   ########.fr       */
+/*   Updated: 2023/11/04 12:45:35 by rbutzke          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,4 +58,7 @@ void	teste_ft_lstdelone(void f(t_list *, void (*)(void *)));
 void 	teste_ft_lstclear(void f(t_list **, void (*)(void *)));
 void	teste_ft_lstiter(void	x(t_list *, void (*f)(void *)));
 void	teste_ft_lstmap(t_list *x(t_list *, void *(*f)(void *), void (*del)(void *)));
+void 	teste_ft_striteri(void	x (char *, void (*f)(unsigned int, char*)));
+
+
 #endif
